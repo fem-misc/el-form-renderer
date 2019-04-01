@@ -5,3 +5,8 @@
 > code and example are coexisting
 
 Official documentation's example based.
+
+## Credit
+
+- 📚[docute](https://docute.org/)
+- 🔥[docute-demo-code](https://github.com/evillt/docute-demo-code)
