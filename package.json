@@ -1,7 +1,8 @@
 {
   "scripts": {
     "serve": "dvan --serve",
-    "build": "dvan --prod"
+    "build": "dvan --prod",
+    "now-build": "npm run build"
   },
   "devDependencies": {
     "docute": "^4.13.5",
