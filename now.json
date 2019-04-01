@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "alias": ["fem-el-form-renderer"],
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": {
+        "distDir": "dist"
+      }
+    }
+  ],
+  "github": {
+    "silent": true
+  }
+}
