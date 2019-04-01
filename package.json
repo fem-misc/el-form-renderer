@@ -7,7 +7,7 @@
   "devDependencies": {
     "docute": "^4.13.5",
     "docute-demo-code": "^0.1.2",
-    "dvan": "^2.5.3"
+    "dvan": "^2.5.4"
   },
   "dependencies": {
     "@femessage/el-form-renderer": "^1.4.1",
