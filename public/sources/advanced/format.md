@@ -5,8 +5,10 @@
 <template>
   <div class="format">
     <el-form-renderer :content="content" inline ref="formRender">
-      <el-button @click="setValue">设置</el-button>
-      <el-button type="primary" @click="getValue">获取数据</el-button>
+      <el-form-item>
+        <el-button @click="setValue">设置</el-button>
+        <el-button type="primary" @click="getValue">获取数据</el-button>
+      </el-form-item>
     </el-form-renderer>
   </div>
 </template>
