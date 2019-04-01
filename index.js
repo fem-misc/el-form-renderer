@@ -2,7 +2,7 @@ import Docute from 'docute'
 import docuteDemoCode from 'docute-demo-code'
 import 'element-ui/lib/theme-chalk/index.css'
 import Elm from 'element-ui'
-import ElFormRenderer from '@femessage/el-form-renderer/src'
+import ElFormRenderer from '@femessage/el-form-renderer'
 
 Vue.use(Elm)
 Vue.component('ElFormRenderer', ElFormRenderer)
