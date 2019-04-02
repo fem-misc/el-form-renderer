@@ -17,6 +17,7 @@ export default {
         {
           $id: 'button',
           component: CustomComponent,
+          $default: 233,
           label: '按钮'
         }
       ]

@@ -9,9 +9,10 @@ Vue.component('ElFormRenderer', ElFormRenderer)
 
 window.CustomComponent = Vue.component('CustomComponent', {
   template: '<button type="button" @click="inc">count: {{ count }}</button>',
+  props: ['value'],
   data() {
     return {
-      count: 0
+      count: this.value
     }
   },
   methods: {
