@@ -56,6 +56,10 @@ new Docute({
           link: '/basic/radio-group'
         },
         {
+          title: 'Checkbox Group',
+          link: '/basic/checkbox-group'
+        },
+        {
           title: 'Date Picker',
           link: '/basic/date-picker'
         }
