@@ -1,29 +1,20 @@
-import Docute from 'docute'
 import docuteDemoCode from 'docute-demo-code'
-import 'element-ui/lib/theme-chalk/index.css'
-import Elm from 'element-ui'
 import ElFormRenderer from '@femessage/el-form-renderer'
 
-Vue.use(Elm)
 Vue.component('ElFormRenderer', ElFormRenderer)
 
 window.CustomComponent = Vue.component('CustomComponent', {
-  template: '<button type="button" @click="inc">count: {{ count }}</button>',
+  template: '<button type="button" @click="count++">count: {{ count }}</button>',
   props: ['value'],
   data() {
     return {
       count: this.value
     }
-  },
-  methods: {
-    inc() {
-      this.count++
-    }
   }
 })
 
 new Docute({
-  target: '#app',
+  target: '#docute',
   darkThemeToggler: true,
   sourcePath: '/sources',
   plugins: [
