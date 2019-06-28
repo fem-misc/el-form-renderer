@@ -9,6 +9,6 @@
     "poi": "^12.6.10"
   },
   "dependencies": {
-    "@femessage/el-form-renderer": "^1.5.7"
+    "@femessage/el-form-renderer": "^1.5.8"
   }
 }
