@@ -18,10 +18,10 @@ export default {
     return {
       content: [
         {
-          $type: 'select',
-          $id: 'name',
+          type: 'select',
+          id: 'name',
           label: '名字',
-          $options: [
+          options: [
             {
               label: '小明',
               value: 'xiaoming'
@@ -32,16 +32,17 @@ export default {
             }
           ],
           atChange: (id, val) => {
+            console.log(id, val)
             this.$refs.form.updateForm({
-              fullName: `当前选择是:${fullNameOpts[val]}`
+              fullName: `当前选择是:{fullNameOpts[val]}`
             })
           }
         },
         {
           label: '全称',
-          $type: 'input',
-          $id: 'fullName',
-          $el: {
+          type: 'input',
+          id: 'fullName',
+          el: {
             disabled: true
           }
         }

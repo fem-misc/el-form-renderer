@@ -2,9 +2,8 @@
 
 :::demo
 ```html
-<template>
-  <el-form-renderer :content="content" inline></el-form-renderer>
-</template>
+<el-form-renderer ref="form" :content="content" inline></el-form-renderer>
+<button @click="log">log my value</button>
 
 <script>
 import CustomComponent from './custom-component.vue'
@@ -15,12 +14,17 @@ export default {
     return {
       content: [
         {
-          $id: 'button',
+          id: 'button',
           component: CustomComponent,
-          $default: 233,
+          default: 233,
           label: '按钮'
         }
       ]
+    }
+  },
+  methods: {
+    log() {
+      console.log(this.$refs.form.getFormValue())
     }
   }
 }

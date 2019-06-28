@@ -1,14 +1,14 @@
 {
   "scripts": {
-    "serve": "dvan --serve",
-    "build": "dvan --prod",
+    "serve": "poi --serve",
+    "build": "poi --prod",
     "now-build": "npm run build"
   },
   "devDependencies": {
     "docute-demo-code": "^0.1.5",
-    "dvan": "^2.5.4"
+    "poi": "^12.6.10"
   },
   "dependencies": {
-    "@femessage/el-form-renderer": "^1.4.1"
+    "@femessage/el-form-renderer": "^1.5.7"
   }
 }

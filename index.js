@@ -1,5 +1,5 @@
 import docuteDemoCode from 'docute-demo-code'
-import ElFormRenderer from '@femessage/el-form-renderer'
+import ElFormRenderer from '@femessage/el-form-renderer/src'
 
 Vue.component('ElFormRenderer', ElFormRenderer)
 
@@ -86,6 +86,10 @@ new Docute({
         {
           title: 'Slot',
           link: '/advanced/slot'
+        },
+        {
+          title: 'Group',
+          link: '/advanced/group'
         }
       ]
     }
