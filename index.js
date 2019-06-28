@@ -1,5 +1,5 @@
 import docuteDemoCode from 'docute-demo-code'
-import ElFormRenderer from '@femessage/el-form-renderer/src'
+import ElFormRenderer from '@femessage/el-form-renderer'
 
 Vue.component('ElFormRenderer', ElFormRenderer)
 
