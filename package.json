@@ -6,6 +6,7 @@
   },
   "devDependencies": {
     "docute-demo-code": "^0.1.5",
+    "element-ui": "^2.10.0",
     "poi": "^12.6.10"
   },
   "dependencies": {
